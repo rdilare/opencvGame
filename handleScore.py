@@ -14,7 +14,7 @@ def getScore():
 	# dirname = path.dirname(path.realpath(__file__))
 def saveScore(score):
 	dirname = path.dirname(path.realpath(__file__))
-	print(dirname)
+	# print(dirname)
 	date = dt.datetime.now()
 	with open(path.join(dirname,"scores.txt"),"r") as f:
 		f.seek(0)
